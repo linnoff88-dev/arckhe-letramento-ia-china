@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>AI literacy in China — what the government is doing</title>
+<meta content="Research conducted in Sep 2026: national plans, 2025 guides, provincial class hours, rules for using generative AI in schools, universities, workplaces, and public service, with critical analysis, comparison with the U.S., and lessons for Brazil." name="description"/>
+<meta content="AI literacy in China — what the government is doing" property="og:title"/>
+<meta content="China’s plans, guides, class hours, usage rules, and programs for AI literacy, with critical analysis, comparison with the U.S., and lessons for Brazil." property="og:description"/>
+<meta content="article" property="og:type"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --red:#f87171; --grn:#4ade80;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --red:#b91c1c; --grn:#15803d;
+    color-scheme:light;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.2;margin:0}
+  a{color:var(--amb);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:16px;height:56px}
+  nav .brand{font-family:Sora;font-weight:800;color:var(--amb);white-space:nowrap}
+  nav .links{display:flex;gap:16px;margin-left:auto;font-size:.88rem;overflow-x:auto}
+  nav .links a{color:var(--mut);white-space:nowrap} nav .links a:hover{color:var(--txt);text-decoration:none}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.85rem;font-family:Sora;white-space:nowrap}
+  #tema{background:none;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:4px 9px;cursor:pointer}
+  @media(max-width:760px){nav .links{display:none} nav .inema{margin-left:auto}}
+  .hero{padding:64px 0 36px;position:relative;overflow:hidden}
+  .hero h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:800;letter-spacing:-.02em;margin:12px 0 16px}
+  .hero h1 span{color:var(--amb)}
+  .hero p.lead{font-size:1.15rem;color:var(--mut);max-width:720px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:30px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+  .kpi b{display:block;font-family:Sora;font-size:1.6rem;color:var(--amb)}
+  .kpi span{font-size:.88rem;color:var(--mut)}
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  section h2{font-size:1.7rem;margin:8px 0 18px}
+  section h3{font-size:1.1rem;margin:22px 0 8px}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
+  .box.destaque{border-color:var(--amb);background:color-mix(in srgb,var(--amb) 8%,var(--card))}
+  .tl{list-style:none;padding:0;margin:0;border-left:2px solid var(--line)}
+  .tl li{position:relative;padding:0 0 16px 20px}
+  .tl li::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--amb)}
+  .tl .d{font-family:Sora;font-weight:600;color:var(--amb);font-size:.9rem}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+  .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{margin-top:0}
+  .num{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:50%;background:var(--amb);color:#111;font-weight:700;font-size:.85rem;margin-right:8px;font-family:Sora}
+  ul.lst{padding-left:20px;margin:8px 0} ul.lst li{margin:4px 0}
+  .tag{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--mut);margin-left:6px;vertical-align:middle}
+  .crit li::marker{color:var(--red)}
+  .lic li::marker{color:var(--grn)}
+  .tbl{overflow-x:auto;border:1px solid var(--line);border-radius:14px}
+  table{width:100%;border-collapse:collapse;font-size:.93rem;min-width:560px}
+  th,td{text-align:left;vertical-align:top;padding:11px 14px;border-bottom:1px solid var(--line)}
+  thead th{font-family:Sora;background:var(--bg2);color:var(--amb)}
+  tbody th{font-family:Sora;font-weight:600;color:var(--mut);white-space:nowrap}
+  tr:last-child td,tr:last-child th{border-bottom:0}
+  .horas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+  .horas .card b{font-family:Sora;color:var(--amb);font-size:1.15rem;display:block}
+  .fontes{font-size:.88rem;columns:2 300px;column-gap:30px}
+  .fontes li{break-inside:avoid;margin:4px 0}
+  footer{padding:40px 0;text-align:center;color:var(--mut);font-size:.9rem;border-top:1px solid var(--line)}
+</style>
+<link href="https://inematds.github.io/letramento-ia-china/guia/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/letramento-ia-china/guia/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/letramento-ia-china/guia/es/" hreflang="es" rel="alternate"/></head>
+<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="./" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<nav>
+<div class="wrap">
+<span class="brand">🇨🇳 AI literacy</span>
+<div class="links">
+<a href="#linha">Timeline</a>
+<a href="#frentes">Initiatives</a>
+<a href="#regras">Rules</a>
+<a href="#critica">Criticism</a>
+<a href="#eua">U.S. × China</a>
+<a href="#brasil">Lessons</a>
+<a href="#fontes">Sources</a>
+</div>
+<a class="inema" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<button aria-label="Toggle theme" id="tema">◐</button>
+</div>
+</nav>
+<header class="hero">
+<div class="wrap">
+<span class="chip">Research · September 2026</span>
+<h1>What China is doing in <span>AI literacy</span></h1>
+<p class="lead">In China, teaching AI has become a state priority: from elementary schools to universities for older adults, including teachers, public servants, and small businesses. The central government sets the guidelines and targets, and each province decides how many class hours students will have. Here’s what is already a reality, what is still only a target, and what raises concerns.</p>
+<div class="kpis">
+<div class="kpi"><b>2017</b><span>first national plan to call for AI in schools</span></div>
+<div class="kpi"><b>≥ 8 h/year</b><span>of AI classes in Beijing, from first grade through high school</span></div>
+<div class="kpi"><b>184</b><span>AI education pilot schools</span></div>
+<div class="kpi"><b>~300,000</b><span>Zhejiang civil servants studying AI (2025)</span></div>
+<div class="kpi"><b>2030</b><span>goal of AI literacy at every stage and across society</span></div>
+</div>
+</div>
+</header>
+<main>
+<section id="linha">
+<div class="wrap">
+<span class="chip">1 · Timeline</span>
+<h2>Nine years of preparation, eighteen months of acceleration</h2>
+<ul class="tl">
+<li><div class="d">Jul 2017</div><b>National AI plan.</b> The State Council calls for AI courses in elementary and secondary education, programming instruction, and a “smart education for all” program.</li>
+<li><div class="d">Apr 2018 → 2020</div><b>Universities.</b> AI innovation plan for higher education. The number of universities offering undergraduate AI programs grows from 35 in the first round (2019) to 180 in the next.</li>
+<li><div class="d">Nov/2021</div><b>Digital literacy for the entire population.</b> National action plan, with targets reviewed every year.</li>
+<li><div class="d">Feb 2024</div><b>184 model schools</b> of AI education selected as laboratories and showcases. In September, Zhejiang and Nanjing universities make AI <b>required for all first-year students</b>.</li>
+<li><div class="d">Dec 2024</div><b>Ministry of Education notice</b> to strengthen AI in basic education, with the goal of universal access by 2030. Shanghai introduces the “AI Fundamentals” course in 4th and 7th grade.</li>
+<li><div class="d">Mar/2025</div><b>Beijing makes AI courses mandatory</b>: at least 8 class hours per year, in every grade, starting in September 2025. That same month, amid the DeepSeek boom, around 300,000 Zhejiang civil servants study AI, and classes for older adults fill up in minutes.</li>
+<li><div class="d">May/2025</div><b>Two national guides</b> for basic education: what to teach about AI and how to use generative AI in schools, with age-based rules.</li>
+<li><div class="d">Jun 2025</div><b>No AI during the gaokao.</b> During the national college entrance exam (about 13 million test takers), Qwen, Doubao, DeepSeek, Kimi, and Yuanbao disable image recognition.</li>
+<li><div class="d">Aug 2025</div><b>“AI+” Initiative</b> from the State Council: agents and smart devices used by more than 70% by 2027 and more than 90% by 2030. Shandong publishes “10 initiatives” for AI in schools.</li>
+<li><div class="d">Mar/2026</div><b>15th Five-Year Plan (2026–2030)</b> approved, with the “AI+” initiative as its main focus.</li>
+<li><div class="d">Apr 2026</div><b>“AI + Education” Action Plan</b>, signed by five agencies: AI at every stage of education and throughout society by 2030, an AI literacy standard for teachers, and AI as a core subject at universities.</li>
+<li><div class="d">May/2026</div><b>AI literacy for the entire population</b> gets its own section in the annual digital literacy plan, signed by four agencies.</li>
+<li><div class="d">Aug–Sep 2026</div><b>New school year.</b> More provinces are expanding the course. Jiangsu, for example, announced it would be offered in all basic education schools starting in September.</li>
+</ul>
+</div>
+</section>
+<section id="frentes">
+<div class="wrap">
+<span class="chip">2 · The three fronts</span>
+<h2>School, work, and society</h2>
+<div class="grid3">
+<div class="card">
+<h3>🏫 Schools</h3>
+<ul class="lst">
+<li><b>Progression by stage:</b> in the early grades, notice and experiment; in the upper elementary and middle school grades, understand and apply; in high school, create projects.</li>
+<li>Maybe <b>standalone subject</b> or enroll in Computing, Science, Technology, and Practical Activities.</li>
+<li><b>Free national platform</b> with sections on “learning AI” and “using AI,” also open to parents. The 2026 plan directs rural schools to use this platform.</li>
+<li><b>184 model schools</b> test and spread models.</li>
+</ul>
+</div>
+<div class="card">
+<h3>🎓 Universities and work</h3>
+<ul class="lst">
+<li><b>AI as a foundational subject at all universities</b>, with materials for each subject area.</li>
+<li><b>Teachers:</b> national AI literacy standard, large-scale assessment, AI in teacher education programs, and in the <b>teacher certification exam</b>.</li>
+<li><b>New official professions</b>, such as “generative AI application operator” (2024).</li>
+<li><b>Vocational education</b> revised with AI, microcredentials, and courses through the open university.</li>
+</ul>
+</div>
+<div class="card">
+<h3>👵 Population</h3>
+<ul class="lst">
+<li><b>National AI literacy initiative</b> since 2026, including older adults and safe use.</li>
+<li><b>Servers:</b> ~300,000 in Zhejiang. Party schools teach people to use large models to draft, analyze data, and make decisions.</li>
+<li><b>Older adults:</b> DeepSeek classes at universities for older adults. In Guangzhou, 60 spots filled in 1 minute.</li>
+<li><b>Small businesses:</b> 100 pilot cities for digitalization and <b>computing and model vouchers</b> to make AI more affordable.</li>
+</ul>
+</div>
+</div>
+<h3>How many hours? It depends on the province</h3>
+<p class="mut">The central government requires the courses to be offered, and each province or city sets the number of class hours. There is no single national number.</p>
+<div class="horas">
+<div class="card"><b>Beijing</b>≥ 8 class hours per year, from 1st grade through 12th grade, since Sep/2025</div>
+<div class="card"><b>Shanghai</b>1 class per week in 4th and 7th grade (the “AI Fundamentals” course)</div>
+<div class="card"><b>Guangdong</b>≥ 6 lessons/year (grades 1–4), ≥ 10 (grades 5–6), 1 every 2 weeks (grades 7–8)</div>
+<div class="card"><b>Shandong</b>≥ 6 lessons/year (grades 1–2), ≥ 8 (grades 3–9), elective “Introduction to AI” in high school</div>
+</div>
+</div>
+</section>
+<section id="regras">
+<div class="wrap">
+<span class="chip">3 · The rules for use</span>
+<h2>What Chinese schools require when using AI</h2>
+<p class="mut">The Guide to Using Generative AI in Basic Education (May/2025) is the most concrete document in the package. It corresponds to the “evaluate responses” and “use responsibly” areas of the <a href="https://inematds.github.io/letramento-ia-eua/guia/#referencial">American framework</a>, but becomes a rule.</p>
+<div class="grid2">
+<div class="box">
+<h3 style="margin-top:0">By age</h3>
+<p><span class="num">1</span><b>Lower elementary:</b> Generative AI may be used openly only with help from a teacher or guardian</p>
+<p><span class="num">2</span><b>Upper elementary and middle school:</b> analyze the logic behind the answer and <b>cross-check across sources</b></p>
+<p><span class="num">3</span><b>High school:</b> study how AI works and <b>assess the social impact</b> of what it generates</p>
+</div>
+<div class="box">
+<h3 style="margin-top:0">For everyone</h3>
+<ul class="lst">
+<li><b>Copying prohibited</b> the AI’s answer as homework or an exam</li>
+<li>Teacher training <b>critical thinking</b>: find logical flaws, value bias, and cultural bias in the AI's text</li>
+<li><b>Entering is prohibited</b> test questions and personal data in AI tools</li>
+<li>Each school maintains a <b>white list</b> of approved tools</li>
+<li>AI <b>does not determine the final grade</b>; assessment is done by humans and machines</li>
+</ul>
+</div>
+</div>
+<div class="box destaque"><b>The idea in a nutshell:</b> AI is an assistant. The teacher-student relationship remains central, and students cannot outsource their own thinking.</div>
+</div>
+</section>
+<section id="critica">
+<div class="wrap">
+<span class="chip">4 · Critical reading</span>
+<h2>What works and what raises concerns</h2>
+<div class="grid2">
+<div class="card">
+<h3>✅ What’s real</h3>
+<ul class="lst lic">
+<li><b>Scale and coordination:</b> in 18 months, a notice, two guides, a five-agency plan, and provincial targets with required hours were issued.</li>
+<li><b>Clear usage rules</b>, by age, with specific prohibitions.</li>
+<li><b>Think about those who teach:</b> AI literacy standard for teachers and AI on the certification exam.</li>
+<li><b>Reaches overlooked audiences:</b> older adults, public servants, and small businesses.</li>
+<li><b>Free national platform</b> for schools with limited resources.</li>
+</ul>
+</div>
+<div class="card">
+<h3>⚠️ What’s concerning</h3>
+<ul class="lst crit">
+<li><b>Narrow mandate:</b> Eight hours a year is little. The phrase “mandatory nationwide from age 6,” common on foreign websites, does not appear in official texts. National policy sets guidelines, while each province sets the specific requirements.</li>
+<li><b>Inequality:</b> rural schools are short about 8.5 million computers. In the 2025 college entrance exam, 85% of Shanghai students entered a four-year university, compared with 32% in Anhui.</li>
+<li><b>Companies inside schools:</b> iFlytek charged ¥1.74 million (about US$254,000) to a single school for its “smart classroom” package.</li>
+<li><b>Surveillance:</b> students’ brain-wave patterns (2019, later suspended after protests). In 2025–26, visitors reported cameras in classrooms and hallways and students wearing devices in Shanghai.</li>
+<li><b>Ideology:</b> the 2026 plan calls for a “large-scale political and ideological education model” and digital profiles for each student.</li>
+<li><b>No measurement:</b> there is still no independent study of what students have learned.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="eua">
+<div class="wrap">
+<span class="chip">5 · Comparison</span>
+<h2>U.S. × China</h2>
+<p class="mut">Both countries treat AI literacy as part of the technology race, but take opposite approaches. Also see the <a href="https://inematds.github.io/letramento-ia-eua/guia/">U.S. survey</a>.</p>
+<div class="tbl">
+<table>
+<thead><tr><th></th><th>🇺🇸 U.S.</th><th>🇨🇳 China</th></tr></thead>
+<tbody>
+<tr><th>Instrument</th><td>Decrees, funding, and a voluntary framework</td><td>National guidelines, five-agency plan, and provincial requirement</td></tr>
+<tr><th>School</th><td>National challenge and policy documents; nothing mandatory</td><td>AI course with minimum hours set by each province</td></tr>
+<tr><th>Worker</th><td>Competency framework, reskilling funds</td><td>New official professions, AI in technical education, microcredentials</td></tr>
+<tr><th>Teacher</th><td>Training funded by big tech companies</td><td>National AI literacy standard and driving test</td></tr>
+<tr><th>Usage rules</th><td>Recommendations</td><td>Age-based rules, whitelist, ban on copying</td></tr>
+<tr><th>Industry</th><td>Big tech companies train teachers</td><td>National giants sell platforms to schools</td></tr>
+<tr><th>Biggest risk</th><td>A patchwork, with little funding</td><td>Surveillance, ideology, rural inequality</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="brasil">
+<div class="wrap">
+<span class="chip">6 · Lessons</span>
+<h2>What we can apply here</h2>
+<div class="grid2">
+<div class="card"><h3>1. Progression by level</h3><p>Recognize, understand, create. The same progression can help organize an AI learning path for beginners, starting with an introduction and ending with their own projects.</p></div>
+<div class="card"><h3>2. A simple use policy</h3><p>A list of approved tools, with rules not to copy and paste sensitive data and to verify information with another source. It fits on one page and works for schools, families, and small businesses.</p></div>
+<div class="card"><h3>3. Train teachers first</h3><p>China defined what teachers need to know before expecting students to learn it. Well-trained multipliers deliver more than scattered classes.</p></div>
+<div class="card"><h3>4. People 40+ and 60+ want to learn</h3><p>AI classes for older adults sold out in one minute. The demand is there, and there’s often a lack of offerings designed for this audience.</p></div>
+<div class="card"><h3>5. Public administration</h3><p>AI course for civil servants and city governments, modeled on Zhejiang: writing, analyzing data, and making decisions with AI support.</p></div>
+<div class="card"><h3>6. What not to copy</h3><p>Surveillance, dependence on a single vendor, and literacy without measuring results. Open, free, neutral content is the counterpoint.</p></div>
+</div>
+</div>
+</section>
+<section id="fontes">
+<div class="wrap">
+<span class="chip">Sources</span>
+<h2>For reference</h2>
+<p class="mut">Research conducted on 09/28/2026. The central documents were checked against the official text in Chinese. Programs and figures change quickly: check the source before citing.</p>
+<ul class="fontes">
+<li><a href="https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm" rel="noopener" target="_blank">State Council — New Generation AI Development Plan (2017)</a></li>
+<li><a href="http://www.moe.gov.cn/srcsite/A16/s7062/201804/t20180410_332722.html" rel="noopener" target="_blank">MOE — AI Plan for Higher Education (2018)</a></li>
+<li><a href="https://www.cac.gov.cn/2021-11/05/c_1637708867754305.htm" rel="noopener" target="_blank">CAC — Digital literacy for the entire population (2021)</a></li>
+<li><a href="http://www.moe.gov.cn/srcsite/A06/s3321/202402/t20240223_1116386.html" rel="noopener" target="_blank">MOE — 184 AI pilot schools (2024)</a></li>
+<li><a href="https://www.nju.edu.cn/info/1056/369081.htm" rel="noopener" target="_blank">Nanjing University — AI for all first-year students</a></li>
+<li><a href="http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202412/t20241202_1165500.html" rel="noopener" target="_blank">MOE — Notice on AI in basic education (Dec 2024)</a></li>
+<li><a href="https://cset.georgetown.edu/publication/china-primary-secondary-ai-education-notice" rel="noopener" target="_blank">CSET — translation of the Dec. 2024 notice</a></li>
+<li><a href="https://edu.sh.gov.cn/xxgk2_zdgz_jyxxh_03/20241217/d41f0919ad4446f28076eb15c5669070.html" rel="noopener" target="_blank">Shanghai — AI plan for basic education</a></li>
+<li><a href="http://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202501/t20250119_1176193.html" rel="noopener" target="_blank">Education Powerhouse Plan 2024–2035</a></li>
+<li><a href="https://www.beijing.gov.cn/ywdt/gzdt/202503/t20250308_4029252.html" rel="noopener" target="_blank">Beijing — AI course ≥ 8 h/year</a></li>
+<li><a href="https://jw.beijing.gov.cn/xxgk/2024zcwj/2024qtwj/202503/t20250307_4028227.html" rel="noopener" target="_blank">Beijing — 2025–2027 plan (text)</a></li>
+<li><a href="https://www.gd.gov.cn/gdywdt/bmdt/content/post_4695440.html" rel="noopener" target="_blank">Guangdong — AI class hours</a></li>
+<li><a href="http://edu.shandong.gov.cn/art/2025/8/31/art_107055_10342436.html" rel="noopener" target="_blank">Shandong — 10 AI initiatives in schools</a></li>
+<li><a href="https://www.edu.cn/xxh/focus/zc/202505/t20250513_2667990.shtml" rel="noopener" target="_blank">General AI Education Guide (May 2025)</a></li>
+<li><a href="https://www.edu.cn/xxh/focus/zc/202505/t20250513_2667996.shtml" rel="noopener" target="_blank">Generative AI Guide — MOE questions and answers</a></li>
+<li><a href="https://cset.georgetown.edu/publication/china-school-gen-ai-use-guide-2025/" rel="noopener" target="_blank">CSET — translation of the generative AI guide</a></li>
+<li><a href="https://www.cnbc.com/2025/05/15/key-ai-hub-china-restricts-schoolchildrens-use-of-the-tech.html" rel="noopener" target="_blank">CNBC — China restricts AI for children</a></li>
+<li><a href="https://fortune.com/asia/2025/06/09/alibaba-tencent-freeze-ai-tools-gaokao-china-exam" rel="noopener" target="_blank">Fortune — AI frozen during the gaokao</a></li>
+<li><a href="https://www.zast.org.cn/art/2025/3/25/art_1673864_58976647.html" rel="noopener" target="_blank">Zhejiang — 300,000 public servants study AI</a></li>
+<li><a href="https://news.dayoo.com/guangzhou/202503/04/139995_54794948.htm" rel="noopener" target="_blank">Guangzhou — DeepSeek class for older adults</a></li>
+<li><a href="https://www.mee.gov.cn/zcwj/gwywj/202508/t20250827_1126207.shtml" rel="noopener" target="_blank">State Council — “AI+” Initiative (Aug. 2025)</a></li>
+<li><a href="http://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html" rel="noopener" target="_blank">MOE and 4 agencies — “AI+Education” Plan (Apr 2026)</a></li>
+<li><a href="https://cset.georgetown.edu/publication/china-ai-plus-education-action-plan/" rel="noopener" target="_blank">CSET — translation of the “AI+Education” plan</a></li>
+<li><a href="http://finance.people.com.cn/n1/2026/0529/c1004-40730470.html" rel="noopener" target="_blank">2026 digital literacy key points (People's Daily)</a></li>
+<li><a href="https://news.qq.com/rain/a/20260821V05YUV00" rel="noopener" target="_blank">Jiangsu — AI in all schools (Sep 2026)</a></li>
+<li><a href="https://www.stdaily.com/web/gdxw/2024-08/26/content_219175.html" rel="noopener" target="_blank">New AI professions (Aug/2024)</a></li>
+<li><a href="https://www.gov.cn/zhengce/zhengceku/202505/content_7023527.htm" rel="noopener" target="_blank">Small businesses — pilot cities (2025)</a></li>
+<li><a href="https://basic.smartedu.cn/" rel="noopener" target="_blank">National Smart Education Platform</a></li>
+<li><a href="https://www.chinatalk.media/p/chinas-ai-education-experiment" rel="noopener" target="_blank">ChinaTalk — China's AI Education Experiment</a></li>
+<li><a href="https://www.thewirechina.com/2024/06/09/teachers-pet-iflytek-ai-edtech-education-technology/" rel="noopener" target="_blank">The Wire China — iFlytek in schools</a></li>
+<li><a href="https://digitalpromise.org/2026/01/13/ai-powered-pedagogy-global-lessons-for-local-innovation/" rel="noopener" target="_blank">Digital Promise — visit to schools in Shanghai (Jan 2026)</a></li>
+<li><a href="https://qz.com/1742279/a-mind-reading-headband-is-facing-backlash-in-china" rel="noopener" target="_blank">Quartz — brainwave ranges (2019)</a></li>
+<li><a href="https://world-education-blog.org/2025/09/04/china-is-embracing-ai-in-education-how-are-principals-coping/" rel="noopener" target="_blank">UNESCO/IIEP — how school principals are handling it</a></li>
+<li><a href="https://chinamediaproject.org/2025/05/19/ai-joins-chinas-primary-schools/" rel="noopener" target="_blank">China Media Project — AI comes to primary school</a></li>
+</ul>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<p>Research for the community · <a href="https://inema.club">INEMA.CLUB</a> · <a href="https://inematds.github.io/letramento-ia-eua/guia/">AI literacy in the U.S.</a></p>
+</div>
+</footer>
+<script>
+  (function(){
+    var b=document.body,k='tema-letramento';
+    try{ if(localStorage.getItem(k)==='light') b.classList.add('light'); }catch(e){}
+    document.getElementById('tema').addEventListener('click',function(){
+      b.classList.toggle('light');
+      try{ localStorage.setItem(k, b.classList.contains('light')?'light':'dark'); }catch(e){}
+    });
+  })();
+</script>
+</body>
+</html>

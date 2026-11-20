@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Alfabetización en IA en China — qué está haciendo el gobierno</title>
+<meta content="Relevamiento de sep/2026: planes nacionales, guías de 2025, carga horaria por provincia, reglas para el uso de IA generativa en la escuela, universidades, trabajadores, personas mayores y funcionarios, con análisis crítico, comparación con EE. UU. y lecciones para Brasil." name="description"/>
+<meta content="Alfabetización en IA en China — qué está haciendo el gobierno" property="og:title"/>
+<meta content="Planes, guías, carga horaria, reglas de uso y programas de China para la alfabetización en IA, con lectura crítica, comparación con EE. UU. y lecciones para Brasil." property="og:description"/>
+<meta content="article" property="og:type"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#E2A23B; --amb2:#f0c070; --sky:#38bdf8; --red:#f87171; --grn:#4ade80;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#b9791d; --amb2:#a16207; --sky:#0369a1; --red:#b91c1c; --grn:#15803d;
+    color-scheme:light;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.2;margin:0}
+  a{color:var(--amb);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:16px;height:56px}
+  nav .brand{font-family:Sora;font-weight:800;color:var(--amb);white-space:nowrap}
+  nav .links{display:flex;gap:16px;margin-left:auto;font-size:.88rem;overflow-x:auto}
+  nav .links a{color:var(--mut);white-space:nowrap} nav .links a:hover{color:var(--txt);text-decoration:none}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.85rem;font-family:Sora;white-space:nowrap}
+  #tema{background:none;border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:4px 9px;cursor:pointer}
+  @media(max-width:760px){nav .links{display:none} nav .inema{margin-left:auto}}
+  .hero{padding:64px 0 36px;position:relative;overflow:hidden}
+  .hero h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:800;letter-spacing:-.02em;margin:12px 0 16px}
+  .hero h1 span{color:var(--amb)}
+  .hero p.lead{font-size:1.15rem;color:var(--mut);max-width:720px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:30px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+  .kpi b{display:block;font-family:Sora;font-size:1.6rem;color:var(--amb)}
+  .kpi span{font-size:.88rem;color:var(--mut)}
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  section h2{font-size:1.7rem;margin:8px 0 18px}
+  section h3{font-size:1.1rem;margin:22px 0 8px}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
+  .box.destaque{border-color:var(--amb);background:color-mix(in srgb,var(--amb) 8%,var(--card))}
+  .tl{list-style:none;padding:0;margin:0;border-left:2px solid var(--line)}
+  .tl li{position:relative;padding:0 0 16px 20px}
+  .tl li::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--amb)}
+  .tl .d{font-family:Sora;font-weight:600;color:var(--amb);font-size:.9rem}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+  .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{margin-top:0}
+  .num{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:50%;background:var(--amb);color:#111;font-weight:700;font-size:.85rem;margin-right:8px;font-family:Sora}
+  ul.lst{padding-left:20px;margin:8px 0} ul.lst li{margin:4px 0}
+  .tag{display:inline-block;font-size:.72rem;padding:2px 8px;border-radius:99px;border:1px solid var(--line);color:var(--mut);margin-left:6px;vertical-align:middle}
+  .crit li::marker{color:var(--red)}
+  .lic li::marker{color:var(--grn)}
+  .tbl{overflow-x:auto;border:1px solid var(--line);border-radius:14px}
+  table{width:100%;border-collapse:collapse;font-size:.93rem;min-width:560px}
+  th,td{text-align:left;vertical-align:top;padding:11px 14px;border-bottom:1px solid var(--line)}
+  thead th{font-family:Sora;background:var(--bg2);color:var(--amb)}
+  tbody th{font-family:Sora;font-weight:600;color:var(--mut);white-space:nowrap}
+  tr:last-child td,tr:last-child th{border-bottom:0}
+  .horas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+  .horas .card b{font-family:Sora;color:var(--amb);font-size:1.15rem;display:block}
+  .fontes{font-size:.88rem;columns:2 300px;column-gap:30px}
+  .fontes li{break-inside:avoid;margin:4px 0}
+  footer{padding:40px 0;text-align:center;color:var(--mut);font-size:.9rem;border-top:1px solid var(--line)}
+</style>
+<link href="https://inematds.github.io/letramento-ia-china/guia/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/letramento-ia-china/guia/en/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/letramento-ia-china/guia/es/" hreflang="es" rel="alternate"/></head>
+<body><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="../en/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="./" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">ES</a></div>
+<nav>
+<div class="wrap">
+<span class="brand">🇨🇳 Alfabetización en IA</span>
+<div class="links">
+<a href="#linha">Línea de tiempo</a>
+<a href="#frentes">Iniciativas</a>
+<a href="#regras">Reglas</a>
+<a href="#critica">Crítica</a>
+<a href="#eua">EE. UU. × China</a>
+<a href="#brasil">Lecciones</a>
+<a href="#fontes">Fuentes</a>
+</div>
+<a class="inema" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<button aria-label="Cambiar tema" id="tema">◐</button>
+</div>
+</nav>
+<header class="hero">
+<div class="wrap">
+<span class="chip">Relevamiento · septiembre de 2026</span>
+<h1>Qué está haciendo China en <span>alfabetización en IA</span></h1>
+<p class="lead">En China, enseñar IA se convirtió en un plan de Estado: desde la escuela primaria hasta las universidades para adultos mayores, pasando por docentes, funcionarios y pequeñas empresas. El gobierno central establece las directrices y las metas, y cada provincia decide cuántas horas de clase tendrán los alumnos. Esto es lo que ya es realidad, lo que todavía es solo una meta y lo que preocupa.</p>
+<div class="kpis">
+<div class="kpi"><b>2017</b><span>primer plan nacional que pide IA en la escuela</span></div>
+<div class="kpi"><b>≥ 8 h/año</b><span>de clases de IA en Beijing, desde 1.º de primaria hasta la escuela secundaria</span></div>
+<div class="kpi"><b>184</b><span>escuelas base de educación en IA</span></div>
+<div class="kpi"><b>~300 mil</b><span>funcionarios de Zhejiang estudian IA (2025)</span></div>
+<div class="kpi"><b>2030</b><span>meta de alfabetización en IA en todas las etapas y en la sociedad</span></div>
+</div>
+</div>
+</header>
+<main>
+<section id="linha">
+<div class="wrap">
+<span class="chip">1 · Línea de tiempo</span>
+<h2>Nueve años de preparación, dieciocho meses de aceleración</h2>
+<ul class="tl">
+<li><div class="d">jul/2017</div><b>Plan nacional de IA.</b> El Consejo de Estado pide cursos de IA en la educación básica y media, enseñanza de programación y un programa de «educación inteligente para todos».</li>
+<li><div class="d">abr/2018 → 2020</div><b>Universidades.</b> Plan de innovación en IA en la educación superior. La carrera universitaria de IA pasa de 35 universidades en la primera tanda (2019) a 180 en la siguiente.</li>
+<li><div class="d">nov/2021</div><b>Alfabetización digital para toda la población.</b> Plan de acción nacional, con metas revisadas cada año.</li>
+<li><div class="d">feb/2024</div><b>184 escuelas base</b> de educación en IA elegidas como laboratorio y vitrina. En septiembre, las universidades de Zhejiang y Nanjing hacen que la IA <b>obligatoria para todos los estudiantes de primer ingreso</b>.</li>
+<li><div class="d">dic/2024</div><b>Aviso del Ministerio de Educación</b> para fortalecer la IA en la educación básica, con la meta de universalizarla para 2030. Shanghái crea el curso «Fundamentos de IA» en 4.º y 7.º grado.</li>
+<li><div class="d">mar/2025</div><b>Pekín hace obligatorio el curso de IA</b>: como mínimo 8 horas de clase al año, en todos los grados, a partir de septiembre de 2025. Ese mismo mes, con el auge de DeepSeek, cerca de 300 mil funcionarios de Zhejiang estudian IA y los cupos para personas mayores se llenan en minutos.</li>
+<li><div class="d">may/2025</div><b>Dos guías nacionales</b> para la educación básica: qué enseñar sobre IA y cómo usar la IA generativa en la escuela, con reglas según la edad.</li>
+<li><div class="d">jun/2025</div><b>Gaokao sin IA.</b> Durante el examen nacional de ingreso a la universidad (cerca de 13 millones de candidatos), Qwen, Doubao, DeepSeek, Kimi y Yuanbao desactivan el reconocimiento de imágenes.</li>
+<li><div class="d">ago/2025</div><b>Acción «IA+»</b> del Consejo de Estado: agentes y terminales inteligentes usados por más del 70% para 2027 y por más del 90% para 2030. Shandong publica "10 acciones" de IA en la escuela.</li>
+<li><div class="d">mar/2026</div><b>15.º Plan Quinquenal (2026–2030)</b> aprobado, con la acción "IA+" como eje.</li>
+<li><div class="d">abr/2026</div><b>Plan de Acción «IA+Educación»</b>, firmado por cinco organismos: IA en todas las etapas educativas y en la sociedad para 2030, un estándar de alfabetización en IA para docentes y la IA como asignatura básica en las universidades.</li>
+<li><div class="d">may/2026</div><b>Alfabetización en IA para toda la población</b> gana un espacio propio en el plan anual de alfabetización digital, firmado por cuatro organismos.</li>
+<li><div class="d">ago–sep/2026</div><b>Nuevo año escolar.</b> Más provincias amplían el curso. Jiangsu, por ejemplo, anunció que se ofrecerá en todas las escuelas de educación básica a partir de septiembre.</li>
+</ul>
+</div>
+</section>
+<section id="frentes">
+<div class="wrap">
+<span class="chip">2 · Los tres frentes</span>
+<h2>Escuela, trabajo y sociedad</h2>
+<div class="grid3">
+<div class="card">
+<h3>🏫 Escuelas</h3>
+<ul class="lst">
+<li><b>Progresión por etapa:</b> en los primeros años, percibir y experimentar; en los últimos años de primaria y secundaria básica, comprender y aplicar; en la educación media superior, crear proyectos.</li>
+<li>Puede ser <b>asignatura propia</b> o ingresar a Informática, Ciencias, Tecnología y Actividades Prácticas.</li>
+<li><b>Plataforma nacional gratuita</b> con secciones "aprender IA" y "usar IA", abierta también a padres. El plan de 2026 indica que las escuelas rurales deben usar esta plataforma.</li>
+<li><b>184 escuelas base</b> prueban y difunden modelos.</li>
+</ul>
+</div>
+<div class="card">
+<h3>🎓 Universidades y trabajo</h3>
+<ul class="lst">
+<li><b>IA como asignatura básica en todas las universidades</b>, con material por área del curso.</li>
+<li><b>Docentes:</b> estándar nacional de alfabetización en IA, evaluación masiva, IA en las carreras de formación docente y en el <b>examen de habilitación docente</b>.</li>
+<li><b>Nuevas profesiones oficiales</b>, como «operador de aplicaciones de IA generativa» (2024).</li>
+<li><b>Educación técnica</b> reformulado con IA, microcredenciales y cursos a través de la universidad abierta.</li>
+</ul>
+</div>
+<div class="card">
+<h3>👵 Población</h3>
+<ul class="lst">
+<li><b>Iniciativa nacional de alfabetización en IA</b> desde 2026, con inclusión de personas mayores y uso seguro.</li>
+<li><b>Servidores:</b> ~300 mil en Zhejiang. Las escuelas del partido enseñan a usar grandes modelos para redactar, analizar datos y tomar decisiones.</li>
+<li><b>Personas mayores:</b> clases de DeepSeek en universidades para personas mayores. En Guangzhou, 60 cupos se agotaron en 1 minuto.</li>
+<li><b>Pequeñas empresas:</b> 100 ciudades piloto de digitalización y <b>vales de computación y de modelos</b> para abaratar la IA.</li>
+</ul>
+</div>
+</div>
+<h3>¿Cuántas horas? Depende de la provincia</h3>
+<p class="mut">El gobierno central ordena ofrecer los cursos, y cada provincia o ciudad fija la carga horaria. No existe una cifra nacional única.</p>
+<div class="horas">
+<div class="card"><b>Pekín</b>≥ 8 horas de clase por año, desde 1.º de primaria hasta 3.º de educación media superior, desde sep/2025</div>
+<div class="card"><b>Shanghái</b>1 clase por semana en 4.º y 7.º grado (curso «Fundamentos de IA»)</div>
+<div class="card"><b>Guangdong</b>≥ 6 clases/año (1.º–4.º), ≥ 10 (5.º–6.º), 1 cada 2 semanas (7.º–8.º)</div>
+<div class="card"><b>Shandong</b>≥ 6 clases/año (1.º–2.º), ≥ 8 (3.º–9.º), optativa «Introducción a la IA» en la educación media superior</div>
+</div>
+</div>
+</section>
+<section id="regras">
+<div class="wrap">
+<span class="chip">3 · Las reglas de uso</span>
+<h2>Qué exige la escuela china al usar IA</h2>
+<p class="mut">La guía para el uso de IA generativa en la educación básica (may/2025) es el documento más concreto del paquete. Corresponde a las áreas «evaluar las respuestas» y «usar con responsabilidad» del <a href="https://inematds.github.io/letramento-ia-eua/guia/#referencial">referencia estadounidense</a>, pero se convierte en regla.</p>
+<div class="grid2">
+<div class="box">
+<h3 style="margin-top:0">Por edad</h3>
+<p><span class="num">1</span><b>Primeros años de primaria:</b> IA generativa abierta solo con ayuda de un docente o tutor</p>
+<p><span class="num">2</span><b>Últimos años de primaria:</b> analizar la lógica de la respuesta y <b>verificar cruzando fuentes</b></p>
+<p><span class="num">3</span><b>Educación media:</b> estudiar cómo funciona la IA y <b>evaluar el impacto social</b> de lo que genera</p>
+</div>
+<div class="box">
+<h3 style="margin-top:0">Para todos</h3>
+<ul class="lst">
+<li><b>Prohibido copiar</b> la respuesta de la IA como tarea o examen</li>
+<li>El docente se capacita <b>pensamiento crítico</b>: encontrar fallas de lógica, sesgos de valor y sesgos culturales en el texto de la IA</li>
+<li><b>Prohibido ingresar</b> preguntas de examen y datos personales en herramientas de IA</li>
+<li>Cada escuela mantiene una <b>lista blanca</b> de herramientas aprobadas</li>
+<li>La IA <b>no determina la nota final</b>; la evaluación es humana + máquina</li>
+</ul>
+</div>
+</div>
+<div class="box destaque"><b>La idea que lo resume:</b> la IA es una herramienta de apoyo. La relación entre docente y estudiante sigue en el centro, y el estudiante no puede delegar su propio pensamiento.</div>
+</div>
+</section>
+<section id="critica">
+<div class="wrap">
+<span class="chip">4 · Lectura crítica</span>
+<h2>Qué funciona y qué preocupa</h2>
+<div class="grid2">
+<div class="card">
+<h3>✅ Lo que es real</h3>
+<ul class="lst lic">
+<li><b>Escala y coordinación:</b> en 18 meses se publicaron un aviso, dos guías, un plan de cinco organismos y metas provinciales con carga horaria.</li>
+<li><b>Reglas de uso claras</b>, por edad, con prohibiciones concretas.</li>
+<li><b>Piensa en quienes enseñan:</b> estándar de alfabetización para docentes e IA en el examen de habilitación.</li>
+<li><b>Llega a públicos olvidados:</b> personas mayores, servidores y pequeñas empresas.</li>
+<li><b>Plataforma nacional gratuita</b> para escuelas sin recursos.</li>
+</ul>
+</div>
+<div class="card">
+<h3>⚠️ Lo que preocupa</h3>
+<ul class="lst crit">
+<li><b>Mandato preciso:</b> 8 horas al año es poco. La frase «obligatorio en todo el país a partir de los 6 años», común en sitios extranjeros, no aparece en los textos oficiales. Lo que es nacional son las directrices, y cada provincia establece las obligaciones concretas.</li>
+<li><b>Desigualdad:</b> faltan cerca de 8,5 millones de computadoras en las escuelas rurales. En el examen de ingreso a la universidad de 2025, el 85% de los estudiantes de Shanghái ingresó a una universidad de 4 años, frente al 32% en Anhui.</li>
+<li><b>Empresas dentro de la escuela:</b> iFlytek cobró ¥1,74 millón (cerca de US$ 254 mil) a una sola escuela por el paquete de "aula inteligente".</li>
+<li><b>Vigilancia:</b> bandas de ondas cerebrales en estudiantes (2019, suspendidas después de las protestas). En 2025–26, visitantes reportaron cámaras en aulas y pasillos, y estudiantes con dispositivos vestibles en Shanghái.</li>
+<li><b>Ideología:</b> el plan de 2026 prevé un «gran modelo de educación político-ideológica» y perfiles digitales de cada estudiante.</li>
+<li><b>Sin medición:</b> todavía no hay estudios independientes sobre lo que aprendieron los estudiantes.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="eua">
+<div class="wrap">
+<span class="chip">5 · Comparación</span>
+<h2>EE. UU. × China</h2>
+<p class="mut">Ambos países consideran la alfabetización en IA parte de la competencia tecnológica, pero siguen caminos opuestos. Consulta también el <a href="https://inematds.github.io/letramento-ia-eua/guia/">estudio de EE. UU.</a>.</p>
+<div class="tbl">
+<table>
+<thead><tr><th></th><th>🇺🇸 EE. UU.</th><th>🇨🇳 China</th></tr></thead>
+<tbody>
+<tr><th>Instrumento</th><td>Decretos, presupuesto y marco de referencia voluntario</td><td>Directrices nacionales, plan de cinco organismos y obligación provincial</td></tr>
+<tr><th>Escuela</th><td>Desafío nacional y convocatorias; nada obligatorio</td><td>Curso de IA con carga horaria mínima por provincia</td></tr>
+<tr><th>Trabajador</th><td>Marco de competencias, fondos para la reubicación laboral</td><td>Nuevas profesiones oficiales, IA en la educación técnica, microcertificados</td></tr>
+<tr><th>Docente</th><td>Formación financiada por las grandes tecnológicas</td><td>Estándar nacional de alfabetización y IA en el examen de licencia</td></tr>
+<tr><th>Reglas de uso</th><td>Recomendaciones</td><td>Reglas por edad, lista blanca, prohibición de copiar</td></tr>
+<tr><th>Industria</th><td>Las grandes tecnológicas capacitan a docentes</td><td>Gigantes nacionales venden plataformas a las escuelas</td></tr>
+<tr><th>Mayor riesgo</th><td>Un mosaico fragmentado, con poco presupuesto</td><td>Vigilancia, ideología, desigualdad rural</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="brasil">
+<div class="wrap">
+<span class="chip">6 · Lecciones</span>
+<h2>Qué puedes aprovechar aquí</h2>
+<div class="grid2">
+<div class="card"><h3>1. Progresión por nivel</h3><p>Percibir, entender, crear. La misma secuencia sirve para organizar una ruta de IA para principiantes, empezando por el contacto y terminando en proyectos propios.</p></div>
+<div class="card"><h3>2. Una política de uso sencilla</h3><p>Lista de herramientas aprobadas, no copiar, no pegar datos sensibles y verificar en otra fuente. Cabe en una página y sirve para la escuela, la familia y las pequeñas empresas.</p></div>
+<div class="card"><h3>3. Formar primero a quienes enseñan</h3><p>China definió lo que el docente debe saber antes de exigírselo al alumno. Los multiplicadores bien formados rinden más que las clases dispersas.</p></div>
+<div class="card"><h3>4. El público de 40+ y 60+ quiere aprender</h3><p>Los cursos de IA para personas mayores se agotaron en un minuto. Hay demanda y suele faltar una oferta pensada para este público.</p></div>
+<div class="card"><h3>5. Gestión pública</h3><p>Curso de IA para funcionarios y municipios, en el formato de Zhejiang: redactar, analizar datos y tomar decisiones con apoyo de la IA.</p></div>
+<div class="card"><h3>6. Qué no copiar</h3><p>Vigilancia, dependencia de un solo proveedor y alfabetización sin medir resultados. El contenido abierto, gratuito y neutral es la respuesta.</p></div>
+</div>
+</div>
+</section>
+<section id="fontes">
+<div class="wrap">
+<span class="chip">Fuentes</span>
+<h2>Para consultar</h2>
+<p class="mut">Relevamiento del 28/09/2026. Los documentos centrales se verificaron en el texto oficial, en chino. Los programas y las cifras cambian rápido: consulta la fuente antes de citarlos.</p>
+<ul class="fontes">
+<li><a href="https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm" rel="noopener" target="_blank">Consejo de Estado — Plan de la Nueva Generación de IA (2017)</a></li>
+<li><a href="http://www.moe.gov.cn/srcsite/A16/s7062/201804/t20180410_332722.html" rel="noopener" target="_blank">MOE — Plan de IA en la educación superior (2018)</a></li>
+<li><a href="https://www.cac.gov.cn/2021-11/05/c_1637708867754305.htm" rel="noopener" target="_blank">CAC — Alfabetización digital de toda la población (2021)</a></li>
+<li><a href="http://www.moe.gov.cn/srcsite/A06/s3321/202402/t20240223_1116386.html" rel="noopener" target="_blank">MOE — 184 escuelas base de IA (2024)</a></li>
+<li><a href="https://www.nju.edu.cn/info/1056/369081.htm" rel="noopener" target="_blank">Universidad de Nanjing — IA para todos los estudiantes de primer año</a></li>
+<li><a href="http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202412/t20241202_1165500.html" rel="noopener" target="_blank">MOE — Aviso sobre IA en la educación básica (dic/2024)</a></li>
+<li><a href="https://cset.georgetown.edu/publication/china-primary-secondary-ai-education-notice" rel="noopener" target="_blank">CSET — traducción del aviso de dic/2024</a></li>
+<li><a href="https://edu.sh.gov.cn/xxgk2_zdgz_jyxxh_03/20241217/d41f0919ad4446f28076eb15c5669070.html" rel="noopener" target="_blank">Shanghái — plan de IA en la educación básica</a></li>
+<li><a href="http://www.moe.gov.cn/jyb_xxgk/moe_1777/moe_1778/202501/t20250119_1176193.html" rel="noopener" target="_blank">Plan para convertirse en una potencia educativa 2024–2035</a></li>
+<li><a href="https://www.beijing.gov.cn/ywdt/gzdt/202503/t20250308_4029252.html" rel="noopener" target="_blank">Pekín — curso de IA ≥ 8 h/año</a></li>
+<li><a href="https://jw.beijing.gov.cn/xxgk/2024zcwj/2024qtwj/202503/t20250307_4028227.html" rel="noopener" target="_blank">Pekín — plan 2025–2027 (texto)</a></li>
+<li><a href="https://www.gd.gov.cn/gdywdt/bmdt/content/post_4695440.html" rel="noopener" target="_blank">Guangdong — carga horaria de IA</a></li>
+<li><a href="http://edu.shandong.gov.cn/art/2025/8/31/art_107055_10342436.html" rel="noopener" target="_blank">Shandong — 10 acciones de IA en la escuela</a></li>
+<li><a href="https://www.edu.cn/xxh/focus/zc/202505/t20250513_2667990.shtml" rel="noopener" target="_blank">Guía de educación general en IA (may/2025)</a></li>
+<li><a href="https://www.edu.cn/xxh/focus/zc/202505/t20250513_2667996.shtml" rel="noopener" target="_blank">Guía sobre IA generativa — preguntas y respuestas del MOE</a></li>
+<li><a href="https://cset.georgetown.edu/publication/china-school-gen-ai-use-guide-2025/" rel="noopener" target="_blank">CSET — traducción de la guía de IA generativa</a></li>
+<li><a href="https://www.cnbc.com/2025/05/15/key-ai-hub-china-restricts-schoolchildrens-use-of-the-tech.html" rel="noopener" target="_blank">CNBC — China restringe la IA para niños</a></li>
+<li><a href="https://fortune.com/asia/2025/06/09/alibaba-tencent-freeze-ai-tools-gaokao-china-exam" rel="noopener" target="_blank">Fortune — IA congelada durante el gaokao</a></li>
+<li><a href="https://www.zast.org.cn/art/2025/3/25/art_1673864_58976647.html" rel="noopener" target="_blank">Zhejiang — 300 mil servidores estudian IA</a></li>
+<li><a href="https://news.dayoo.com/guangzhou/202503/04/139995_54794948.htm" rel="noopener" target="_blank">Guangzhou — curso de DeepSeek para personas mayores</a></li>
+<li><a href="https://www.mee.gov.cn/zcwj/gwywj/202508/t20250827_1126207.shtml" rel="noopener" target="_blank">Consejo de Estado — Acción «IA+» (ago/2025)</a></li>
+<li><a href="http://www.moe.gov.cn/srcsite/A16/s3342/202604/t20260410_1433240.html" rel="noopener" target="_blank">MOE y 4 organismos — Plan «IA+Educación» (abr/2026)</a></li>
+<li><a href="https://cset.georgetown.edu/publication/china-ai-plus-education-action-plan/" rel="noopener" target="_blank">CSET — traducción del plan «IA+Educación»</a></li>
+<li><a href="http://finance.people.com.cn/n1/2026/0529/c1004-40730470.html" rel="noopener" target="_blank">Puntos clave de 2026 sobre alfabetización digital (People's Daily)</a></li>
+<li><a href="https://news.qq.com/rain/a/20260821V05YUV00" rel="noopener" target="_blank">Jiangsu — IA en todas las escuelas (sep/2026)</a></li>
+<li><a href="https://www.stdaily.com/web/gdxw/2024-08/26/content_219175.html" rel="noopener" target="_blank">Nuevas profesiones de IA (ago/2024)</a></li>
+<li><a href="https://www.gov.cn/zhengce/zhengceku/202505/content_7023527.htm" rel="noopener" target="_blank">Pequeñas empresas — ciudades piloto (2025)</a></li>
+<li><a href="https://basic.smartedu.cn/" rel="noopener" target="_blank">Plataforma nacional Smart Education</a></li>
+<li><a href="https://www.chinatalk.media/p/chinas-ai-education-experiment" rel="noopener" target="_blank">ChinaTalk — China's AI Education Experiment</a></li>
+<li><a href="https://www.thewirechina.com/2024/06/09/teachers-pet-iflytek-ai-edtech-education-technology/" rel="noopener" target="_blank">The Wire China — iFlytek en la escuela</a></li>
+<li><a href="https://digitalpromise.org/2026/01/13/ai-powered-pedagogy-global-lessons-for-local-innovation/" rel="noopener" target="_blank">Digital Promise — visita a escuelas de Shanghái (ene/2026)</a></li>
+<li><a href="https://qz.com/1742279/a-mind-reading-headband-is-facing-backlash-in-china" rel="noopener" target="_blank">Quartz — rangos de ondas cerebrales (2019)</a></li>
+<li><a href="https://world-education-blog.org/2025/09/04/china-is-embracing-ai-in-education-how-are-principals-coping/" rel="noopener" target="_blank">UNESCO/IIEP — cómo lo están abordando los directores</a></li>
+<li><a href="https://chinamediaproject.org/2025/05/19/ai-joins-chinas-primary-schools/" rel="noopener" target="_blank">China Media Project — La IA llega a la escuela primaria</a></li>
+</ul>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<p>Relevamiento para la comunidad · <a href="https://inema.club">INEMA.CLUB</a> · <a href="https://inematds.github.io/letramento-ia-eua/guia/">Alfabetización en IA en EE. UU.</a></p>
+</div>
+</footer>
+<script>
+  (function(){
+    var b=document.body,k='tema-letramento';
+    try{ if(localStorage.getItem(k)==='light') b.classList.add('light'); }catch(e){}
+    document.getElementById('tema').addEventListener('click',function(){
+      b.classList.toggle('light');
+      try{ localStorage.setItem(k, b.classList.contains('light')?'light':'dark'); }catch(e){}
+    });
+  })();
+</script>
+</body>
+</html>
