@@ -10,11 +10,11 @@
 
 Levantamento (set/2026) do que a China estêÂ¡ fazendo em letramento em IA ê¢â¬â escolas, universidades, trabalhadores, idosos, servidores e pequenas empresas ê¢â¬â com regras de uso, leitura crêÂ­tica, comparaêÂ§êÂ£o com os EUA e liêÂ§êÂµes para o Brasil.
 
-- PêÂ¡gina: https://inematds.github.io/letramento-ia-china/guia/
+- PêÂ¡gina: https://linnoff88-dev.github.io/arckhe-/guia/
 - RelatêÂ³rio em texto: [RELATORIO.md](RELATORIO.md)
-- Complemento: [Letramento em IA nos EUA](https://inematds.github.io/letramento-ia-eua/guia/)
+- Complemento: [Letramento em IA nos EUA](https://linnoff88-dev.github.io/arckhe-/guia/)
 
-Parte do [INEMA.CLUB](https://inema.club).
+Parte do [ARCKHÉ AI](https://ARCKHÉ AI).
 
 ---
 

@@ -4,8 +4,8 @@
 
 A survey (Sep/2026) of what China is doing in AI literacy—schools, universities, workers, older adults, civil servants, and small businesses—with usage rules, critical reading, comparison with the U.S., and lessons for Brazil.
 
-- Page: https://inematds.github.io/letramento-ia-china/guia/en/
+- Page: https://linnoff88-dev.github.io/arckhe-/guia/en/
 - Text report: [RELATORIO.md](RELATORIO.md)
-- Supplement: [AI Literacy in the U.S.](https://inematds.github.io/letramento-ia-eua/guia/)
+- Supplement: [AI Literacy in the U.S.](https://linnoff88-dev.github.io/arckhe-/guia/)
 
-Part of [INEMA.CLUB](https://inema.club).
+Part of [ARCKHÉ AI](https://ARCKHÉ AI).

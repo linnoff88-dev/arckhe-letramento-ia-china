@@ -1,7 +1,7 @@
 # Letramento em IA na China — o que está acontecendo (set/2026)
 
 > Pesquisa de 28/09/2026 com fontes oficiais chinesas e análises independentes (links no fim).
-> Complemento do levantamento dos EUA: https://inematds.github.io/letramento-ia-eua/guia/
+> Complemento do levantamento dos EUA: https://linnoff88-dev.github.io/arckhe-/guia/
 > **Método:** os fatos centrais (plano "IA+Educaçêo", guias de 2025, Pequim, "IA+", pontos-chave de 2026, escolas-base, Zhejiang) foram conferidos no texto oficial. Números de fonte única estêo sinalizados.
 
 ## 1. Linha do tempo
@@ -91,14 +91,14 @@ Equivale às áreas 4 e 5 do referencial americano (avaliar respostas, usar com 
 | Indústria | Big techs formam professores | Campeões nacionais vendem plataformas às escolas |
 | Risco maior | Colcha de retalhos, pouca verba | Vigilância, ideologia, desigualdade rural |
 
-## 6. O que o INEMA pode aproveitar
+## 6. O que o ARCKHÉ pode aproveitar
 
 1. **Progressêo por nível** (perceber → entender → criar) como trilha dos cursos para leigos.
 2. **Uma "política de uso de IA" modelo** (lista branca, nêo copiar, nêo colar dado sensível, conferir cruzando) para escolas, famílias e pequenas empresas.
 3. **Formar quem ensina primeiro**: padrêo de letramento para professores e multiplicadores.
-4. **Idosos e 40+ têm demanda reprimida** (turmas lotando em 1 minuto) → público central do INEMA.
+4. **Idosos e 40+ têm demanda reprimida** (turmas lotando em 1 minuto) → público central do ARCKHÉ.
 5. **Servidores e prefeituras**: curso "IA para gestêo pública" no formato do de Zhejiang.
-6. **Plataforma aberta e gratuita** é o que a China usa para chegar ao interior; é o modelo do INEMA.CLUB.
+6. **Plataforma aberta e gratuita** é o que a China usa para chegar ao interior; é o modelo do ARCKHÉ AI.
 7. **O que nêo copiar**: vigilância, dependência de fornecedor único e letramento sem medir resultado.
 
 ## 7. Pendências

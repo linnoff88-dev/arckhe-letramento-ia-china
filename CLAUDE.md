@@ -1,10 +1,10 @@
 # CLAUDE.md — letramento-ia-china
 
-Levantamento do que a China está fazendo em letramento em IA (ensino básico, universidades, trabalhadores, populaçêo) e do que o INEMA pode aproveitar. Par do `letramento-ia-eua`.
+Levantamento do que a China está fazendo em letramento em IA (ensino básico, universidades, trabalhadores, populaçêo) e do que o ARCKHÉ pode aproveitar. Par do `letramento-ia-eua`.
 
 - Relatório: [RELATORIO.md](RELATORIO.md). Página: `guia/index.html` (fontes com links no fim).
 - Pesquisa feita em 28/09/2026. Documentos centrais conferidos no texto oficial em chinês (moe.gov.cn, beijing.gov.cn, mee.gov.cn, people.com.cn).
-- Conta git de destino: default `inematds <inematds@gmail.com>`.
+- Conta git de destino: default `linnoff88-dev <linnoff88-dev@gmail.com>`.
 
 ## Self-learning
 
